@@ -10,87 +10,107 @@
 
 <body>
    <div class="wrapper">
-      <header class="header_">
+      <header class="header">
          <a href="#" class="logo">
             <img src="img/logo.png" alt="logo">
          </a>
-         <ul class="header_menu">
-            <li class="header_menu_item">Главная</li>
-            <li class="header_menu_item">Услуги</li>
-            <li class="header_menu_item">Отзывы</li>
-         </ul>
-         <address class="header_contacts">
-            <a href="tel:+78007003030" class="header_contact_phone">8 800 700 30 30</a>
-            <div class="header_contacts_workhours">График работы</div>
+         <nav class="header__menu">
+            <ul class="header__menu--list">
+               <li class="header__menu--item">Главная</li>
+               <li class="header__menu--item">Услуги</li>
+               <li class="header__menu--item">Отзывы</li>
+            </ul>
+         </nav>
+         <address class="header__contacts">
+            <a href="tel:+78007003030" class="header__contact--phone">8 800 700 30 30</a>
+            <div class="header__contacts--workhours">График работы</div>
          </address>
       </header>
       <main class="main">
-         <h1 class="main_tagline">СНИМЕМ ДЛЯ ВАС КРЕАТИВНОЕ ВИДЕО</h1>
-         <div class="main_content">креативный видеопродакшен полного цикла</div>
-         <a href="#" class="button">ПОДРОБНЕЕ</a>
-         <div class="preview_bloсk">
-            <div class="preview_item">
-               <img src="img/tv.png" alt="tv" class="preview_pic">
-               <h3 class="preview_name">Реклама</h3>
-               <ul class="preview_content">
-                  <li class="preview_content_item">От <b>5</b> человек на проэкт</li>
-                  <li class="preview_content_item"><b>28</b> дней работы в среднем</li>
+         <section class="hello">
+            <h1 class="hello__title">СНИМЕМ ДЛЯ ВАС КРЕАТИВНОЕ ВИДЕО</h1>
+            <div class="hello__text">креативный видеопродакшен полного цикла</div>
+            <a href="#" class="button">ПОДРОБНЕЕ</a>
+         </section>
+         <section class="preview">
+            <ul class="preview__list">
+               <li class="preview__item">
+                  <img src="img/tv.png" alt="tv" class="preview__pic">
+                  <div class="preview__content">
+                     <h3 class="preview__title">Реклама</h3>
+                     <ul class="preview__content--list">
+                        <li class="preview__content--item">От <b>5</b> человек на проэкт</li>
+                        <li class="preview__content--item"><b>28</b> дней работы в среднем</li>
+                     </ul>
+                     <div class="preview__content--text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     </div>
+                     <a href="#" class="button">ПОДРОБНЕЕ</a>
+                  </div>
+               </li>
+               <li class="preview__item">
+                  <img src="img/clapper.png" alt="clapper" class="preview_pic">
+                  <div class="preview__content">
+                     <h3 class="preview__title">Видео-клип</h3>
+                     <ul class="preview__content--list">
+                        <li class="preview__content--item">От <b>7</b> человек на проэкт</li>
+                        <li class="preview__content--item"><b>21</b> дней работы в среднем</li>
+                     </ul>
+                     <div class="preview__content--text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     </div>
+                     <a href="#" class="button">ПОДРОБНЕЕ</a>
+                  </div>
+               </li>
+               <li class="preview_item">
+                  <img src="img/film.png" alt="film" class="preview_pic">
+                  <div class="preview__content">
+                     <h3 class="preview__title">Свадьба</h3>
+                     <ul class="preview__content--list">
+                        <li class="preview__content--item">От <b>2</b> человек на проэкт</li>
+                        <li class="preview__content--item"><b>30</b> дней работы в среднем</li>
+                     </ul>
+                     <div class="preview__content--text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     </div>
+                     <a href="#" class="button">ПОДРОБНЕЕ</a>
+                  </div>
+               </li>
+            </ul>
+         </section>
+         <section class="news">
+            <div class="news__info">
+               <h2 class="news__title">Новости и акции</h2>
+               <ul class="news__list">
+                  <li class="news__item">
+                     <img src="img/camera.png" alt="camera" class="news__pic">
+                     <div class="news__date">Декабрь 2019</div>
+                     <h3 class="news__content">Снимем ваш клип на 50% дешевле</h3>
+                     <div class="news__content--text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                  </li>
+                  <li class="news__item">
+                     <img src="img/wedding.png" alt="wedding" class="news__pic">
+                     <div class="news__date">Декабрь 2019</div>
+                     <h3 class="news__content">Акция для молодоженов 30%</h3>
+                     <div class="news__content--text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                  </li>
                </ul>
-               <div class="preview_content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-               <a href="#" class="button">ПОДРОБНЕЕ</a>
-            </div>
-            <div class="preview_item">
-               <img src="img/clapper.png" alt="clapper" class="preview_pic">
-               <h3 class="preview_name">Видеоклип</h3>
-               <ul class="preview_content">
-                  <li class="preview_content_item">От <b>7</b> человек на проэкт</li>
-                  <li class="preview_content_item"><b>21</b> дней работы в среднем</li>
-               </ul>
-               <div class="preview_content">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
-               <a href="#" class="button">ПОДРОБНЕЕ</a>
-            </div>
-            <div class="preview_item">
-               <img src="img/film.png" alt="film" class="preview_pic">
-               <h3 class="preview_name">Свадьба</h3>
-               <ul class="preview_content">
-                  <li class="preview_content_item">От <b>2</b> человек на проэкт</li>
-                  <li class="preview_content_item"><b>30</b> дней работы в среднем</li>
-               </ul>
-               <div class="preview_content">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
-               <a href="#" class="button">ПОДРОБНЕЕ</a>
-            </div>
-         </div>
-         <div class="news_block">
-            <h2 class="main_news">Новости и акции</h2>
-            <div class="news_block_item">
-               <img src="img/camera.png" alt="camera" class="news_block_pic">
-               <div class="news_block_date">Декабрь 2019</div>
-               <h3 class="news_block_tagline">Снимем ваш клип на 50% дешевле</h3>
-               <div class="news_block_content">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
-            </div>
-            <div class="news_block_item">
-               <img src="img/wedding.png" alt="wedding" class="news_block_pic">
-               <div class="news_block_date">Декабрь 2019</div>
-               <h3 class="news_block_tagline">Акция для молодоженов 30%</h3>
-               <div class="news_block_content">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
             </div>
             <div class="slider">
-               <div class="slider">Страница 1 из 7</div>
-               <ul class="slider_list">
-                  <li class="slider_item">1</li>
-                  <li class="slider_item">2</li>
-                  <li class="slider_item">3</li>
-                  <li class="slider_item">4</li>
-                  <li class="slider_item">5</li>
-                  <li class="slider_item">6</li>
-                  <li class="slider_item">7</li>
+               <div class="slider__info">Страница <span class="slider__index">1</span> из <span
+                     class="slider__count">7</span></div>
+               <ul class="slider__list">
+                  <li class="slider__item">1</li>
+                  <li class="slider__item">2</li>
+                  <li class="slider__item">3</li>
+                  <li class="slider__item">4</li>
+                  <li class="slider__item">5</li>
+                  <li class="slider__item">6</li>
+                  <li class="slider__item">7</li>
                </ul>
             </div>
-         </div>
-         <div class="about_us">
+         </section>
+         <div class="about">
             <img src="img/cameraman.png" alt="cameraman">
-            <h2 class="about_us_name">О НАС</h2>
-            <div class="about_us_content">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+            <h2 class="about__title">О НАС</h2>
+            <div class="about__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
             <a href="#" class="button">ПОДРОБНЕЕ</a>
          </div>
       </main>
@@ -98,20 +118,22 @@
          <a href="#" class="logo">
             <img src="img/logo.png" alt="logo">
          </a>
-         <ul class="footer_menu">
-            <li class="footer_menu_item">Главная</li>
-            <li class="footer_menu_item">Услуги</li>
-            <li class="footer_menu_item">Отзывы</li>
+         <nav class="footer__menu">
+            <ul class="footer__menu--list">
+               <li class="footer__menu--item">Главная</li>
+               <li class="footer__menu--item">Услуги</li>
+               <li class="footer__menu--item">Отзывы</li>
+            </ul>
+         </nav>
+         <ul class="social__icon">
+            <li><img src="img/telegram.png" alt="telegram" class="social__icon--item"></li>
+            <li><img src="img/vk.png" alt="vk" class="social__icon--item"></li>
+            <li><img src="img/f.png" alt="facebook" class="social__icon--item"></li>
+            <li><img src="img/in.png" alt="instagram" class="social__icon--item"></li>
          </ul>
-         <ul class="social_icon">
-            <li><img src="img/telegram.png" alt="telegram" class="social_icon_item"></li>
-            <li><img src="img/vk.png" alt="vk" class="social_icon_item"></li>
-            <li><img src="img/f.png" alt="facebook" class="social_icon_item"></li>
-            <li><img src="img/in.png" alt="instagram" class="social_icon_item"></li>
-         </ul>
-         <address class="footer_contacts">
-            <div class="footer_content">Бесплатный звонок по России</div>
-            <a href="tel:+78007003030" class="footer_contact_phone">8 800 700 30 30</a>
+         <address class="footer__contacts">
+            <div class="footer__text">Бесплатный звонок по России</div>
+            <a href="tel:+78007003030" class="footer__contact--phone">8 800 700 30 30</a>
          </address>
       </footer>
    </div>
