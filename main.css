@@ -35,6 +35,10 @@ h6 {
    font-weight: normal;
 }
 
+.main--page--wrapper {
+   background: url(img/hero.png) center top no-repeat, url(img/bottom-pic.png) center bottom no-repeat;
+}
+
 /*------------header-------------*/
 .container {
    margin: 0 auto;
