@@ -1,0 +1,420 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+   color: #fff;
+   font-size: 16px;
+   line-height: 1.42;
+   background: #17191C;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+   color: inherit;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+p {
+   margin-top: 0;
+}
+
+ul li {
+   list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+   font-weight: normal;
+}
+
+/*------------header-------------*/
+.container {
+   margin: 0 auto;
+   width: 1140px;
+}
+
+.header {
+   height: 120px;
+   position: relative;
+   margin-bottom: 116px;
+}
+
+.logo__header {
+   display: block;
+   position: absolute;
+   top: 15px;
+   left: 0px;
+}
+
+.menu__header {
+   position: absolute;
+   top: 47px;
+   left: 439px;
+}
+
+.menu__item {
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 51px;
+}
+
+.menu__item--active .menu__link {
+   color: #FF3D00;
+}
+
+.menu__link {
+   font-size: 14px;
+   text-decoration: none;
+}
+
+.menu__link:hover {
+   color: #FF3D00;
+}
+
+
+.header__contacts {
+   position: absolute;
+   top: 36px;
+   right: 0;
+   font-style: normal;
+   text-align: right;
+}
+
+.contact__phone {
+   text-decoration: none;
+   font-size: 26px;
+}
+
+.contacts__workhours {
+   font-size: 13px;
+   text-decoration: underline;
+   color: #FF3D00;
+   margin-top: -6px;
+}
+
+/*------------hello------------*/
+.hello {
+   width: 776px;
+   margin: 0 auto 233px;
+}
+
+.hello__title {
+   font-size: 72px;
+   font-weight: 800;
+   margin-bottom: 15px;
+   text-align: center;
+   line-height: 1.4;
+}
+
+.hello__text {
+   font-size: 18px;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.button {
+   font-size: 14px;
+   background: #FF3D00;
+   border-radius: 35px;
+   padding: 18px 53px;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-decoration: none;
+   text-align: center;
+   margin-left: 293px;
+   display: inline-block;
+}
+
+.preview {
+   margin-bottom: 180px;
+}
+
+.preview__item {
+   display: inline-block;
+   vertical-align: middle;
+   width: 362px;
+   min-height: 476px;
+   background: #FFFFFF;
+   border-radius: 5px;
+   margin-right: 22px;
+}
+
+.preview__item:last-child {
+   margin-right: 0;
+}
+
+.preview__item .button {
+   margin-left: 24px;
+   border: 2px solid #FF5500;
+   background: none;
+   color: #FF5500;
+   padding: 16px 53px;
+   margin-top: 29px;
+}
+
+.preview__item .button:hover {
+   background: #FF3D00;
+   padding: 18px 55px;
+   border: none;
+   color: #fff;
+}
+
+.card {
+   color: #000;
+}
+
+.preview__pic {
+   height: 80px;
+   width: 84px;
+   padding: 36px 29px 25px;
+}
+
+.card__title {
+   font-size: 32px;
+   font-weight: bold;
+   padding: 0 24px;
+}
+
+.card__list {
+   font-size: 16px;
+   padding: 17px 24px;
+}
+
+.card__item {
+   display: inline-block;
+   vertical-align: top;
+   width: 123px;
+   margin-right: 55px;
+}
+
+.card__item:last-child {
+   margin-right: 0;
+}
+
+.card__text {
+   font-size: 14px;
+   padding: 6px 24px;
+}
+
+/*------------news-------------*/
+.section__title {
+   font-weight: 800;
+   font-size: 36px;
+   text-transform: uppercase;
+   margin-bottom: 51px;
+}
+
+.news__list {
+   margin-bottom: 50px;
+}
+
+.news__item {
+   position: relative;
+   display: inline-block;
+   vertical-align: top;
+   width: 557px;
+   min-height: 394px;
+   margin-right: 21px;
+}
+
+.news__item:last-child {
+   margin-right: 0;
+}
+
+.news__pic {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.news__content {
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   padding: 10px 32px;
+   min-height: 130px;
+}
+
+.news__date {
+   font-size: 14px;
+   margin-bottom: 13px;
+}
+
+.news__title {
+   font-size: 24px;
+   margin-bottom: 5px;
+   font-weight: 700;
+}
+
+.news__text {
+   font-size: 16px;
+   font-weight: 400;
+}
+
+/*------------slider-------------*/
+.slider {
+   text-align: center;
+   margin-bottom: 150px;
+}
+
+.slider__info,
+.slider__list {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.slider__info {
+   margin-right: 22px;
+}
+
+.slider__item {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.slider__link {
+   display: block;
+   height: 32px;
+   width: 32px;
+   border-radius: 50%;
+   text-decoration: none;
+   font-weight: bold;
+   line-height: 32px;
+}
+
+.slider__link:hover {
+   background: #FF5500;
+}
+
+.slider__item--active .slider__link {
+   background: #FF5500;
+}
+
+/*------------about-------------*/
+.about__content:before {
+   content: "";
+   display: inline-block;
+   vertical-align: top;
+   height: 505px;
+   width: 490px;
+   background: url(/img/cameraman.png) center center / cover no-repeat;
+}
+
+.about__desc {
+   display: inline-block;
+   vertical-align: top;
+   background: #fff;
+   color: #000;
+   padding: 70px 80px;
+   width: 625px;
+   margin-left: -141px;
+   margin-top: 98px;
+   border-radius: 5px;
+}
+
+.about__title {
+   font-size: 36px;
+   font-weight: bold;
+   margin-bottom: 36px;
+}
+
+.about__text {
+   margin-bottom: 61px;
+}
+
+.about__text p {
+   margin-bottom: 20px;
+}
+
+.about__text p:last-child {
+   margin-bottom: 0;
+}
+
+.about__desc .button {
+   margin: 0;
+   padding: 18px 40px;
+   color: #FFF;
+
+}
+
+/*------------footer-------------*/
+.container {
+   margin: 0 auto;
+   width: 1140px;
+}
+
+.footer {
+   height: 120px;
+   position: relative;
+}
+
+.logo__footer {
+   display: block;
+   position: absolute;
+   top: 15px;
+   left: 0px;
+}
+
+.menu__footer {
+   position: absolute;
+   top: 47px;
+   left: 328px;
+}
+
+.menu__item {
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 51px;
+}
+
+.menu__item--active .menu__link {
+   color: #FF3D00;
+}
+
+.menu__link {
+   font-size: 14px;
+   text-decoration: none;
+}
+
+.menu__link:hover {
+   color: #FF3D00;
+}
+
+.social__icon {
+   position: absolute;
+   top: 47px;
+   left: 703px;
+}
+
+.social__icon__item {
+   display: inline-block;
+   vertical-align: middle;
+
+}
+
+.footer__contacts {
+   position: absolute;
+   top: 36px;
+   right: 0;
+   font-style: normal;
+   text-align: right;
+}
+
+.footer__text {
+   font-size: 11px;
+}
+
+.contact__phone {
+   text-decoration: none;
+   font-size: 26px;
+}
