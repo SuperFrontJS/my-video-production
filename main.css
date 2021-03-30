@@ -35,39 +35,47 @@ h6 {
    font-weight: normal;
 }
 
-.main--page--wrapper {
+.wrapper--page {
    background: url(img/hero.png) center top no-repeat, url(img/bottom-pic.png) center bottom no-repeat;
 }
 
-/*------------header-------------*/
 .container {
+   display: flex;
+   justify-content: space-between;
    margin: 0 auto;
-   width: 1140px;
+   width: 1142px;
 }
+
+.container--colomn {
+   flex-direction: column;
+   align-items: center;
+}
+
+.button {
+   font-size: 14px;
+   background: #FF3D00;
+   border-radius: 35px;
+   padding: 18px 54px;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.container--noflex {
+   display: block;
+}
+
+/*------------header-------------*/
 
 .header {
-   height: 120px;
-   position: relative;
-   margin-bottom: 116px;
+   padding: 21px;
 }
 
-.logo__header {
-   display: block;
-   position: absolute;
-   top: 15px;
-   left: 0px;
-}
-
-.menu__header {
-   position: absolute;
-   top: 47px;
-   left: 439px;
-}
-
-.menu__item {
-   display: inline-block;
-   vertical-align: middle;
-   margin-right: 51px;
+.menu__list {
+   display: flex;
+   justify-content: space-between;
+   min-width: 265px;
+   padding: 18px;
 }
 
 .menu__item--active .menu__link {
@@ -83,13 +91,10 @@ h6 {
    color: #FF3D00;
 }
 
-
-.header__contacts {
-   position: absolute;
-   top: 36px;
-   right: 0;
+.contacts {
    font-style: normal;
    text-align: right;
+   padding: 4px 0;
 }
 
 .contact__phone {
@@ -101,67 +106,52 @@ h6 {
    font-size: 13px;
    text-decoration: underline;
    color: #FF3D00;
-   margin-top: -6px;
 }
 
 /*------------hello------------*/
 .hello {
-   width: 776px;
-   margin: 0 auto 233px;
+   min-height: 333px;
+   padding: 123px;
 }
 
 .hello__title {
    font-size: 72px;
    font-weight: 800;
-   margin-bottom: 15px;
-   text-align: center;
    line-height: 1.4;
+   text-align: center;
 }
 
 .hello__text {
    font-size: 18px;
-   text-align: center;
-   margin-bottom: 40px;
+   padding-bottom: 40px;
+   padding: 15px 15px 40px;
 }
 
-.button {
-   font-size: 14px;
-   background: #FF3D00;
-   border-radius: 35px;
-   padding: 18px 53px;
-   text-transform: uppercase;
-   font-weight: bold;
-   text-decoration: none;
-   text-align: center;
-   margin-left: 293px;
-   display: inline-block;
-}
-
+/*------------preview------------*/
 .preview {
-   margin-bottom: 180px;
+   padding: 110px 0 0 0;
+}
+
+.preview__list {
+   display: flex;
+   justify-content: space-between;
 }
 
 .preview__item {
-   display: inline-block;
-   vertical-align: middle;
    width: 362px;
    min-height: 476px;
    background: #FFFFFF;
    border-radius: 5px;
-   margin-right: 22px;
 }
 
-.preview__item:last-child {
-   margin-right: 0;
+.preview__item:hover {
+   box-sizing: border-box;
+   border: 5px solid #CCCCCC;
 }
 
 .preview__item .button {
-   margin-left: 24px;
-   border: 2px solid #FF5500;
-   background: none;
-   color: #FF5500;
-   padding: 16px 53px;
-   margin-top: 29px;
+   border: 3px solid #FF3D00;
+   background: #fff;
 }
 
 .preview__item .button:hover {
@@ -171,41 +161,33 @@ h6 {
    color: #fff;
 }
 
-.card {
-   color: #000;
-}
-
 .preview__pic {
    height: 80px;
    width: 84px;
-   padding: 36px 29px 25px;
+   padding: 36px 27px 25px;
 }
 
-.card__title {
+.features {
+   color: #000;
+   padding: 0px 20px;
+}
+
+.features__title {
    font-size: 32px;
    font-weight: bold;
-   padding: 0 24px;
+
 }
 
-.card__list {
+.features__list {
+   display: flex;
+   justify-content: space-between;
    font-size: 16px;
-   padding: 17px 24px;
+   padding: 13px 0px;
 }
 
-.card__item {
-   display: inline-block;
-   vertical-align: top;
-   width: 123px;
-   margin-right: 55px;
-}
-
-.card__item:last-child {
-   margin-right: 0;
-}
-
-.card__text {
+.features__text {
    font-size: 14px;
-   padding: 6px 24px;
+   padding: 13px 0px 50px;
 }
 
 /*------------news-------------*/
@@ -213,7 +195,7 @@ h6 {
    font-weight: 800;
    font-size: 36px;
    text-transform: uppercase;
-   margin-bottom: 51px;
+   padding: 180px 0 50px;
 }
 
 .news__list {
@@ -245,7 +227,7 @@ h6 {
    left: 0;
    right: 0;
    bottom: 0;
-   padding: 10px 32px;
+   padding: 10px 30px;
    min-height: 130px;
 }
 
@@ -265,28 +247,28 @@ h6 {
    font-weight: 400;
 }
 
-/*------------slider-------------*/
-.slider {
+/*------------pagination-------------*/
+.pagination {
    text-align: center;
    margin-bottom: 150px;
 }
 
-.slider__info,
-.slider__list {
+.pagination__info,
+.pagination__list {
    display: inline-block;
    vertical-align: middle;
 }
 
-.slider__info {
+.pagination__info {
    margin-right: 22px;
 }
 
-.slider__item {
+.pagination__item {
    display: inline-block;
    vertical-align: middle;
 }
 
-.slider__link {
+.pagination__link {
    display: block;
    height: 32px;
    width: 32px;
@@ -296,11 +278,11 @@ h6 {
    line-height: 32px;
 }
 
-.slider__link:hover {
+.pagination__link:hover {
    background: #FF5500;
 }
 
-.slider__item--active .slider__link {
+.pagination__item--active .pagination__link {
    background: #FF5500;
 }
 
@@ -352,73 +334,25 @@ h6 {
 }
 
 /*------------footer-------------*/
-.container {
-   margin: 0 auto;
-   width: 1140px;
-}
-
 .footer {
-   height: 120px;
-   position: relative;
-}
-
-.logo__footer {
-   display: block;
-   position: absolute;
-   top: 15px;
-   left: 0px;
-}
-
-.menu__footer {
-   position: absolute;
-   top: 47px;
-   left: 328px;
-}
-
-.menu__item {
-   display: inline-block;
-   vertical-align: middle;
-   margin-right: 51px;
-}
-
-.menu__item--active .menu__link {
-   color: #FF3D00;
-}
-
-.menu__link {
-   font-size: 14px;
-   text-decoration: none;
-}
-
-.menu__link:hover {
-   color: #FF3D00;
+   padding: 50px 0 0 0;
 }
 
 .social__icon {
-   position: absolute;
-   top: 47px;
-   left: 703px;
+   display: flex;
+   justify-content: space-between;
+   min-width: 174px;
+
 }
 
 .social__icon__item {
-   display: inline-block;
-   vertical-align: middle;
-
+   opacity: 0.55;
 }
 
-.footer__contacts {
-   position: absolute;
-   top: 36px;
-   right: 0;
-   font-style: normal;
-   text-align: right;
+.social__icon__item:hover {
+   opacity: 1;
 }
 
 .footer__text {
    font-size: 11px;
-}
-
-.contact__phone {
-   text-decoration: none;
-   font-size: 26px;
 }
