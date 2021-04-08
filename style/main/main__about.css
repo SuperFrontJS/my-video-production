@@ -4,7 +4,7 @@
    vertical-align: top;
    height: 505px;
    width: 490px;
-   background: url(/img/cameraman.png) center center / cover no-repeat;
+   background: url(../../img/cameraman.png) center center / cover no-repeat;
 }
 
 .about__desc {

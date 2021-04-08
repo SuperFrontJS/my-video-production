@@ -36,11 +36,15 @@ h6 {
 }
 
 .wrapper__services--page {
-   background: url(/../img_services/top-line.png) center top no-repeat;
+   background: url(../../img_services/top-line.png) center top no-repeat;
 }
 
 .white__background {
    background-color: #fff;
+}
+
+.gray__babackground {
+   background-color: #F4F5F5;
 }
 
 .container {
