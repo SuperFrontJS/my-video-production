@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style/normalize.css">
    <link rel="stylesheet" href="style/main/main__basic.css">
    <link rel="stylesheet" href="style/main/main__fonts.css">
@@ -35,9 +35,22 @@
             </nav>
             <address class="contacts">
                <a href="tel:+78007003030" class="contact__phone">8 800 700 30 30</a>
-               <div class="contacts__workhours">График работы</div>
-            </address>
+               <div class="contacts__workhours">
+                  <div class="dropdown__workhours">
+                     <a class="contact__link">
+                        График работы
+                     </a>
+                     <div class="triangle"></div>
+                     <div class="dropdown__menu">
+                        <ul class="dropdown__list">
+                           <li class="dropdown__item">пн-вс: 09:00 - 20:00</li>
+                           <li class="dropdown__item">Обед: 14:00-14:30</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
          </div>
+         </address>
       </header>
       <main class="main">
          <section class="hello">
@@ -123,7 +136,8 @@
                   <div class="pagination__info">Страница <span class="pagination__index">1</span> из <span
                         class="pagination__count">7</span></div>
                   <ul class="pagination__list">
-                     <li class="pagination__item slider__item--active"><a href="#" class="pagination__link">1</a></li>
+                     <li class="pagination__item pagination__item--active"><a href="#" class="pagination__link">1</a>
+                     </li>
                      <li class="pagination__item"><a href="#" class="pagination__link">2</a></li>
                      <li class="pagination__item"><a href="#" class="pagination__link">3</a></li>
                      <li class="pagination__item"><a href="#" class="pagination__link">4</a></li>

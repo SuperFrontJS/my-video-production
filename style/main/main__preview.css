@@ -28,20 +28,20 @@
 
 .preview__item .button:hover {
    background: #FF3D00;
-   padding: 18px 55px;
-   border: none;
+   padding: 16px 54px;
+   border: 2px solid #FF3D00 transparent;
    color: #fff;
 }
 
 .preview__pic {
    height: 80px;
    width: 84px;
-   padding: 36px 27px 25px;
+   padding: 29px 23px 23px;
 }
 
 .features {
    color: #000;
-   padding: 0px 20px;
+   padding: 0px 16px;
 }
 
 .features__title {
@@ -54,7 +54,7 @@
    display: flex;
    justify-content: space-between;
    font-size: 16px;
-   padding: 13px 0px;
+   padding: 16px 0px;
 }
 
 .features__text {

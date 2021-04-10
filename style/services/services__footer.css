@@ -23,6 +23,7 @@
 
 .social__icon__item:hover {
    opacity: 1;
+   transition: 0.5s;
 }
 
 .footer__text {

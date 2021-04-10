@@ -20,6 +20,7 @@
 
 .menu__link:hover {
    color: #FF3D00;
+   transition: 0.5s;
 }
 
 .contacts {
@@ -36,4 +37,56 @@
    font-size: 13px;
    text-decoration: underline;
    color: #FF3D00;
+}
+
+.dropdown__workhours {
+   position: relative;
+}
+
+.dropdown__workhours:hover .dropdown__menu {
+   display: block;
+}
+
+.dropdown__menu {
+   position: absolute;
+   width: 157px;
+   height: 69px;
+   border-radius: 4px;
+   background: #FFF;
+   opacity: 0.8;
+   top: 150%;
+   left: 17%;
+   display: none;
+
+}
+
+.dropdown__list {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 14px;
+   font-weight: 700;
+   font-size: 13px;
+   line-height: 21px;
+   color: #000;
+}
+
+.dropdown__item:last-child {
+   font-weight: 600;
+}
+
+.triangle {
+   position: absolute;
+   top: 5px;
+   left: 124px;
+   opacity: 0.8;
+   border: 11px solid transparent;
+   width: 0px;
+   height: 0px;
+   border-bottom-color: #fff;
+   display: none;
+}
+
+.dropdown__workhours:hover .triangle {
+   display: block;
 }

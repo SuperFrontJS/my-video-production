@@ -30,6 +30,7 @@
 
 .pagination__link:hover {
    background: #FF5500;
+   transition: 0.5s;
 }
 
 .pagination__item--active .pagination__link {

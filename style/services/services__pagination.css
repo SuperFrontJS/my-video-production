@@ -1,7 +1,7 @@
 .pagination {
    color: #000;
    text-align: center;
-   margin-bottom: 100px;
+   margin-bottom: 86px;
 }
 
 .pagination__info,
@@ -32,6 +32,7 @@
 
 .pagination__link:hover {
    background: #FF5500;
+   transition: 0.5s;
 }
 
 .pagination__item--active .pagination__link {

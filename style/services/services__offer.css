@@ -12,7 +12,7 @@
 .offer__card {
    display: flex;
    color: #000;
-   padding: 50px 0;
+   padding: 50px 0 64px;
 }
 
 .offer__card:first-child {
@@ -35,7 +35,7 @@
 
 .offer__content .button:hover {
    background: #FF3D00;
-   padding: 18px 55px;
-   border: none;
+   padding: 16px 53px;
+   border: 2px solid #FF3D00 transparent;
    color: #fff;
 }

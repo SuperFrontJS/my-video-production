@@ -55,10 +55,11 @@ h6 {
    font-size: 14px;
    background: #FF5500;
    border-radius: 35px;
-   padding: 16px 53px;
+   padding: 16px 54px;
    text-transform: uppercase;
    font-weight: bold;
    text-decoration: none;
+   transition: 0.5s;
 }
 
 .button:hover {

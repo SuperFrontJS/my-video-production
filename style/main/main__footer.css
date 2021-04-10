@@ -1,5 +1,5 @@
 .footer {
-   padding: 53px 0 0 0;
+   padding: 62px 0 0 0;
 }
 
 .footer .container {
@@ -23,6 +23,7 @@
 
 .social__icon__item:hover {
    opacity: 1;
+   transition: 0.5s;
 }
 
 .footer__text {
