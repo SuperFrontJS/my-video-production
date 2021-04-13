@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style/normalize.css">
    <link rel="stylesheet" href="style/services/services__basic.css">
    <link rel="stylesheet" href="style/services/services__header.css">
@@ -16,7 +16,7 @@
    <link rel="stylesheet" href="style/services/services__pagination.css">
    <link rel="stylesheet" href="style/services/services__partners.css">
    <link rel="stylesheet" href="style/services/services__footer.css">
-   <title>Document</title>
+   <title>Услуги</title>
 </head>
 
 <body>
@@ -28,12 +28,25 @@
                <ul class="menu__list">
                   <li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
                   <li class="menu__item menu__item--active"><a href="services.html" class="menu__link">Услуги</a></li>
-                  <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                  <li class="menu__item"><a href="recall.html" class="menu__link">Отзывы</a></li>
                </ul>
             </nav>
             <address class="contacts">
                <a href="tel:+78007003030" class="contact__phone">8 800 700 30 30</a>
-               <div class="contacts__workhours">График работы</div>
+               <div class="contacts__workhours">
+                  <div class="dropdown__workhours">
+                     <a href="#" class="contact__link">
+                        График работы
+                     </a>
+                     <div class="triangle"></div>
+                     <div class="dropdown__menu">
+                        <ul class="dropdown__list">
+                           <li class="dropdown__item">пн-вс: 09:00 - 20:00</li>
+                           <li class="dropdown__item">Обед: 14:00-14:30</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </address>
          </div>
       </header>
@@ -50,12 +63,12 @@
                   <img src="img_services/girls.png" alt="girls_clip" class="offer__img">
                   <div class="offer__content">
                      <h3 class="card__title">Съемки клипа</h3>
-                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolorem necessitatibus
-                        aspernatur repellat beatae consectetur blanditiis, velit, officia doloribus dolorum, voluptas a
-                        commodi! Ad illo cum cupiditate aspernatur nisi voluptate facere ab asperiores unde temporibus
-                        dicta voluptas praesentium deserunt, nam id ex sint reprehenderit, nostrum ut quisquam. Eum
-                        quibusdam sint quae, nisi aperiam excepturi ducimus.
+                     <p class="card__text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae culpa officiis quo voluptas quod
+                        eaque aut, eveniet voluptatibus eius laudantium reiciendis consequuntur error vel illum
+                        repellendus! Quidem temporibus harum animi, neque nulla placeat deserunt vero laboriosam quo?
+                        Maiores, tenetur deleniti! Magni optio vel maxime quae accusamus consequatur facilis. Fugit,
+                        laboriosam?
                      </p>
                      <a href="#" class="button">ПОДРОБНЕЕ</a>
                   </div>
@@ -64,12 +77,12 @@
                   <img src="img_services/engineer.png" alt="engineer_event" class="offer__img">
                   <div class="offer__content">
                      <h3 class="card__title">Съемка мероприятий</h3>
-                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolorem necessitatibus
-                        aspernatur repellat beatae consectetur blanditiis, velit, officia doloribus dolorum, voluptas a
-                        commodi! Ad illo cum cupiditate aspernatur nisi voluptate facere ab asperiores unde temporibus
-                        dicta voluptas praesentium deserunt, nam id ex sint reprehenderit, nostrum ut quisquam. Eum
-                        quibusdam sint quae, nisi aperiam excepturi ducimus.
+                     <p class="card__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam corporis, at voluptas,
+                        voluptates fugiat quae mollitia ex quasi aperiam officia eveniet quaerat! Perferendis odio
+                        officia corrupti veritatis beatae quas velit consectetur eligendi cumque aspernatur non, porro
+                        nulla! Voluptas deserunt quae, facilis delectus ipsa perferendis dicta nesciunt quisquam
+                        deleniti quaerat esse?
                      </p>
                      <a href="#" class="button">ПОДРОБНЕЕ</a>
                   </div>
@@ -92,7 +105,20 @@
          <section class="partners gray__babackground">
             <div class="container container--colomn">
                <h2 class="partners__title">Партнеры</h2>
-               <img src="img_services/partners.png" alt="partners" class="partners__img">
+               <ul class="partners__list">
+                  <li class="partners__item">
+                     <img src="img_services/divico.png" alt="partners" class="partners__img">
+                     <img src="img_services/ds.png" alt="partners" class="partners__img">
+                     <img src="img_services/park.png" alt="partners" class="partners__img">
+                     <img src="img_services/zvibes.png" alt="partners" class="partners__img">
+                  </li>
+                  <li class="partners__item">
+                     <img src="img_services/rosvideo.png" alt="partners" class="partners__img">
+                     <img src="img_services/zavod.png" alt="partners" class="partners__img">
+                     <img src="img_services/pixel.png" alt="partners" class="partners__img">
+                     <img src="img_services/expotv.png" alt="partners" class="partners__img">
+                  </li>
+               </ul>
             </div>
          </section>
       </main__services>
@@ -103,7 +129,7 @@
                <ul class="menu__list">
                   <li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
                   <li class="menu__item menu__item--active"><a href="services.html" class="menu__link">Услуги</a></li>
-                  <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                  <li class="menu__item"><a href="recall.html" class="menu__link">Отзывы</a></li>
                </ul>
             </nav>
             <ul class="social__icon">
