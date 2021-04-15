@@ -43,25 +43,25 @@
 .bg-telegram {
    width: 36px;
    height: 36px;
-   background: url('../../img/css_sprites.png') -10px -10px;
+   background: url('../../img_main/css_sprites.png') -10px -10px;
 }
 
 .bg-vk {
    width: 36px;
    height: 36px;
-   background: url('../../img/css_sprites.png') -66px -10px;
+   background: url('../../img_main/css_sprites.png') -66px -10px;
 }
 
 .bg-f {
    width: 36px;
    height: 36px;
-   background: url('../../img/css_sprites.png') -10px -66px;
+   background: url('../../img_main/css_sprites.png') -10px -66px;
 }
 
 .bg-in {
    width: 36px;
    height: 36px;
-   background: url('../../img/css_sprites.png') -66px -66px;
+   background: url('../../img_main/css_sprites.png') -66px -66px;
 }
 
 .social__icon__link {
